@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST["g-recaptcha-response"])) {
-  $secretKey = "6LcIB7AlAAAAAAZLncCunjciyICqvGi6gBbfqK4L";
+  $secretKey = "SECRET_KEY";
   $recaptchaResponse = $_POST["g-recaptcha-response"];
   $url = "https://www.google.com/recaptcha/api/siteverify";
   $data = array(
