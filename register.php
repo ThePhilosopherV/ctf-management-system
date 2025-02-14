@@ -26,7 +26,7 @@
     <label for="confirm_password">Confirm Password:</label>
     <input type="password" name="confirm_password" required>
 
-    <div class="g-recaptcha" data-sitekey="6LcIB7AlAAAAAOyzieks4UHOlPOuNOlVtk_DMHug"></div>
+    <div class="g-recaptcha" data-sitekey="recaptcha-public-key"></div>
 
     <button class="button" type="submit">Register</button>
   </div>
